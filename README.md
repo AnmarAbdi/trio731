@@ -1,2 +1,2 @@
 # trio731
- Semester Project - Anmar, Hazem, Trinity
+ Semester project - Anmar, Hazem, Trinity
