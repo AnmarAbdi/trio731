@@ -1,3 +1,5 @@
+
+/** Navbar **/
 .navbar-light .navbar-nav .nav-link {
     color: #000000;
 }
@@ -14,4 +16,15 @@
     background-color: #f000!important;
     background-image: url(img/testimg.jpg)!important;
     background-size: 1200px;
+}
+
+/** Shop **/
+body {
+    background-color: #f000!important;
+    background-image: url(img/triobground.png)!important;
+}
+
+h2 {
+  color: #FFF;
+  margin: 30px;
 }
