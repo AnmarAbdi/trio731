@@ -1,5 +1,8 @@
 
 /** Navbar **/
+.navbar {
+  border-radius: 0px 0px 10px 15px;
+}
 .navbar-light .navbar-nav .nav-link {
     color: #000000;
 }
@@ -13,10 +16,31 @@
 }
 
 .bg-light {
-    background-color: #f000!important;
-    background-image: url(img/testimg.jpg)!important;
+
     background-size: 1200px;
 }
+
+.btn-outline-success {
+    color: #16376b;
+    border-color: #16376b;
+}
+
+.btn-outline-success:hover {
+  color: #fff;
+  background-color: #16376b;
+}
+/** Home page **/
+.container {
+  padding: 60px;
+}
+
+.para {
+  background-color: #D5D5D5;
+  color: #FFF;
+  border-radius: 10px;
+}
+
+
 
 /** Shop **/
 body {
@@ -27,4 +51,44 @@ body {
 h2 {
   color: #FFF;
   margin: 30px;
+}
+
+
+/*About Us*/
+.abouttext {
+  text-align: center;
+  padding: 15px;
+ border: 3px solid red;
+ text-align: center;
+ margin-left: 15%;
+ margin-right: 15%;
+ margin-top: 5%;
+}
+
+.pfp {
+  width: 260px;
+  height: 260px;
+}
+
+.profiles {
+  display: flex;
+  align-content: space-between;
+}
+
+.pfpcards {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 100px;
+  text-align: center;
+  font-family: arial;
+  flex: 33.33%;
+
+}
+
+.title {
+  color: grey;
+  font-size: 18px;
+}
+
+.instaicon {
+  width:45px;
 }
