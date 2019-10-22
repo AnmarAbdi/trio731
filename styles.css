@@ -83,6 +83,9 @@ h2 {
   max-width: 100%;
 }
 
+.product-name {
+  color: Black;
+}
 /*About Us*/
 .abouttext {
   text-align: center;
