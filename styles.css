@@ -40,6 +40,41 @@ body {
   background-color: #be0000 !important;
   border-color: #be0000 !important;
 }
+
+/* Style the search field */
+form.example input[type=text] {
+  padding: 10px;
+  font-size: 17px;
+  border: 1px solid grey;
+  float: left;
+  width: 80%;
+  background: #f1f1f1;
+}
+
+/* Style the submit button */
+form.example button {
+  float: left;
+  width: 20%;
+  padding: 10px;
+  background: #c10900;
+  color: black;
+  font-size: 17px;
+  border: 1px solid grey;
+  border-left: none; /* Prevent double borders */
+
+}
+
+form.example button:hover {
+  background: #b10900;
+}
+
+/* Clear floats */
+form.example::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
 /** Home page **/
 .container {
   padding: 60px;
@@ -68,6 +103,7 @@ div.container {
 /** Shop **/
 .row {
   margin-left: 11%;
+  margin-bottom: 3%;
 }
 
 h2 {
@@ -85,6 +121,18 @@ h2 {
 
 .product-name {
   color: Black;
+}
+
+div.row.modal-row {
+  margin-left: 15px;
+}
+
+div.row.modal-options {
+  margin: 15px;
+}
+
+h2.h2-responsive.product-name {
+  margin: 10px;
 }
 /*About Us*/
 .abouttext {
@@ -132,6 +180,17 @@ h2 {
 .abouttext {
   color: white;
 }
+
+.flex-item {
+  flex-grow: 1;
+  flex-shrink: 2;
+  flex-basis: 200px;
+}
+.pfnames {
+  font-size: 27px;
+  color: black;
+}
+
 /* Videos Page */
 .flex-container {
   display: flex;
