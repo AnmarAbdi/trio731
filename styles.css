@@ -195,13 +195,17 @@ h2.h2-responsive.product-name {
 .flex-container {
   display: flex;
   flex-direction: row;
-  box-align: center;
+  align: center;
   justify-content: center;
+  flex-flow: row-wrap;
+  padding: 25px 125px;
 }
 
 .flex-item {
-  padding: 25px 100px;
-  box-align: center;
+  padding: 25px 125px;
+  align: center;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 .youtubeicon {
