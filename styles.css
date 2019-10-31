@@ -107,6 +107,7 @@ div.container {
   width: 70%;
   margin-left: 15%;
   max-width: 70%;
+  background-color: #f8f9fab8!important;
 }
 
 .shop-list {
@@ -114,11 +115,14 @@ div.container {
   margin-left: 15%;
   margin-right: 15%!important;
   min-width: 70%;
-  margin-top: 1%;
+  margin-top: .7%;
 }
 
 .btn-group {
-  margin: 
+  align-items: center!important;
+  display: flex;
+  position: relative;
+  margin: auto;
 }
 /** Shop **/
 .row {
