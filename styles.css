@@ -1,6 +1,8 @@
 body {
   background-image: url(img/collage.jpeg) !important;
 }
+
+
 /** Navbar **/
 .navbar {
   border-radius: 0px 0px 10px 15px;
@@ -99,7 +101,25 @@ div.container {
   max-width: 70%;
 }
 /** Shop Nav **/
+.shop-nav {
+  align-items: center;
+  height: 6%;
+  width: 70%;
+  margin-left: 15%;
+  max-width: 70%;
+}
 
+.shop-list {
+  align-items: center;
+  margin-left: 15%;
+  margin-right: 15%!important;
+  min-width: 70%;
+  margin-top: 1%;
+}
+
+.btn-group {
+  margin: 
+}
 /** Shop **/
 .row {
   margin-left: 11%;
@@ -134,6 +154,9 @@ div.row.modal-options {
 h2.h2-responsive.product-name {
   margin: 10px;
 }
+
+
+
 /*About Us*/
 .abouttext {
   text-align: center;
