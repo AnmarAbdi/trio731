@@ -141,6 +141,7 @@ h2 {
 .card {
   border: 10px;
   max-width: 100%;
+  min-height: 100%;
 }
 
 .product-name {
