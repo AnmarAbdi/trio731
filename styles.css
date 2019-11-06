@@ -42,39 +42,8 @@ body {
   background-color: #be0000 !important;
   border-color: #be0000 !important;
 }
-
-/* Style the search field */
-form.example input[type=text] {
-  padding: 10px;
-  font-size: 17px;
-  border: 1px solid grey;
-  float: left;
-  width: 80%;
-  background: #f1f1f1;
-}
-
-/* Style the submit button */
-form.example button {
-  float: left;
-  width: 20%;
-  padding: 10px;
-  background: #c10900;
-  color: black;
-  font-size: 17px;
-  border: 1px solid grey;
-  border-left: none; /* Prevent double borders */
-
-}
-
-form.example button:hover {
-  background: #b10900;
-}
-
-/* Clear floats */
-form.example::after {
-  content: "";
-  clear: both;
-  display: table;
+.homerow {
+  margin-left: 0px!important;
 }
 
 /** Home page **/
