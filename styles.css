@@ -2,6 +2,9 @@ body {
   background-image: url(img/collage.jpeg) !important;
 }
 
+html {
+  scroll-behavior: smooth;
+}
 
 /** Navbar **/
 .navbar {
@@ -46,10 +49,12 @@ body {
   margin-left: 0px!important;
 }
 
-/** Home page **/
-.container {
-  padding: 60px;
+.footercont {
+  padding: 0px!important;
+  margin: 0px!important;
 }
+
+/** Home page **/
 
 .para {
   color: rgb(0, 0, 0);
@@ -65,26 +70,24 @@ img {
   max-height:100%;
 }
 
-div.container {
+.pagecont {
   background-color: #f8f9fa !important;
   max-width: 70%;
-}
-/** Shop Nav **/
-.shop-nav {
-  align-items: center;
-  height: 6%;
-  width: 70%;
-  margin-left: 15%;
-  max-width: 70%;
-  background-color: #f8f9fab8!important;
+  padding: 60px;
 }
 
-.shop-list {
-  align-items: center;
-  margin-left: 15%;
-  margin-right: 15%!important;
-  min-width: 70%;
-  margin-top: .7%;
+.footercont {
+  background-color: red;
+}
+/** Shop Nav **/
+div.sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  background-color: #f8f9fa69;
+  padding: 8 50 8 50;
+  font-size: 20px;
+  z-index: 1;
 }
 
 .btn-group {
@@ -92,9 +95,18 @@ div.container {
   display: flex;
   position: relative;
   margin: auto;
+  width: 73%;
+}
+
+.btn-secondary {
+  width: 20%;
+}
+
+.allitems {
+  margin: 2 0 8 0;
 }
 /** Shop **/
-.row {
+.shoprow {
   margin-left: 11%;
   margin-bottom: 3%;
 }
@@ -129,7 +141,9 @@ h2.h2-responsive.product-name {
   margin: 10px;
 }
 
-
+.emptycard {
+  visibility: hidden;
+}
 
 /*About Us*/
 .abouttext {
