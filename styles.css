@@ -45,15 +45,57 @@ html {
   background-color: #be0000 !important;
   border-color: #be0000 !important;
 }
+
 .homerow {
   margin-left: 0px!important;
 }
+/** footer **/
 
 .footercont {
   padding: 0px!important;
   margin: 0px!important;
+  background-color: #c52121;
 }
 
+.footer-copyright {
+  background-color: #af0000;
+}
+
+.foottext {
+  color: #FFF;
+}
+
+.foottext:hover {
+  color: #ababab;
+}
+
+.rgba-white-light {
+  margin: 0 15%;
+}
+
+.clearfix {
+  margin: 10% 15% 5%;
+}
+
+.fa {
+  color: black;
+}
+
+.fa-facebook:hover {
+  color: #3b5998;
+}
+
+.fa-youtube:hover {
+  color: #f1f1f1;
+}
+
+.fa-instagram:hover {
+  color: #962fbf;
+}
+
+.fa-tumblr:hover {
+  color: #2d5276;
+}
 /** Home page **/
 
 .para {
@@ -76,9 +118,7 @@ img {
   padding: 60px;
 }
 
-.footercont {
-  background-color: red;
-}
+
 /** Shop Nav **/
 div.sticky {
   position: -webkit-sticky;
