@@ -136,8 +136,6 @@ div.sticky {
   position: relative;
   margin: auto;
   width: 73%;
-  padding-top: 5px;
-  padding-bottom: 5px;
 }
 
 .btn-secondary {
@@ -302,4 +300,25 @@ h2.h2-responsive.product-name {
 .youtubeicon {
   width: 5%;
   height: 10%;
+}
+
+/* media Query */
+
+@media only screen and (max-width: 800px) {
+  .navbar-toggler {
+    width: 10%;
+    height: 10%;
+    background-color: #c52121;
+    margin-right: 30px;
+  }
+  .btn-group{
+    padding-top: 10px;
+  }
+  .card {
+    height: 300px;
+    width: 200px;
+  }
+  .pagecont {
+    max-width: 95%;
+  }
 }
