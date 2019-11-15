@@ -28,6 +28,7 @@ html {
   border-top: 0px;
   border-bottom: 0px;
   border-right: 0px;
+  border-left: 0px;
 }
 
 .bg-light {
@@ -42,7 +43,7 @@ html {
 
 .btn-outline-success:hover {
   color: #fff;
-  background-color: #820000 !important;
+  background-color: #202223!important;
 }
 
 .btn-outline-success:not(:disabled):not(.disabled).active,
@@ -187,7 +188,7 @@ div.sticky {
 
 .btn-secondary {
   width: 20%;
-  background-color: #6c757d;
+  background-color: #202223;
 }
 
 .btn-secondary:hover {
@@ -237,6 +238,26 @@ h2.h2-responsive.product-name {
   visibility: hidden;
 }
 
+.viewbtn {
+  color: #FFF;
+}
+
+.viewbtn:hover {
+  background-color: #202223;
+  color: #FFF;
+}
+
+.viewbtn:success {
+  background-color: #202223;
+}
+
+.btn:focus {
+  box-shadow: 0 0 0 0.2rem rgba(0, 0, 0, 0.25);
+}
+
+.fa-shopping-basket {
+  color: #FFF;
+}
 /* History */
 * Three columns side by side */
 
@@ -377,12 +398,16 @@ h2.h2-responsive.product-name {
   .card-title {
     margin-bottom: 6px;
   }
+  div.row.modal-row {
+    margin-left: 0px;
+    margin-right: 2px;
+  }
 }
 
 /* iPhone plus's */
 @media only screen and (max-width: 425px) {
   .navbar-toggler {
-    width: 15%;
+    width: 18%;
   }
   .btn-group {
     width: 100%;
@@ -407,5 +432,39 @@ h2.h2-responsive.product-name {
   }
   .pagecont {
     width: 93%;
+  }
+  .btn-secondary {
+    width: 40%;
+  }
+  dic.row.modal-options {
+    margin: 0px;
+  }
+  .col-md-6 {
+    width: 50%;
+    padding: 0px;
+  }
+  .card-body {
+    padding-top: 0px;
+  }
+  .modal-options {
+    padding-bottom: 60px;
+    padding-top: 10px;
+  }
+}
+
+@media only screen and (max-width: 376px) {
+  .modal-content {
+    width: 85%;
+    margin: auto;
+  }
+  .modal-options {
+    margin: auto!important;
+    width: 100%;
+  }
+  .card-body {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .text-center {
   }
 }
