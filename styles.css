@@ -290,43 +290,32 @@ h2.h2-responsive.product-name {
 
 
 /* Display the columns below each other instead of side by side on small screens */
-@media screen and (max-width: 650px) {
-  .column {
-    width: 100%;
-    display: block;
-  }
-}
-
 
 
 /* Add some shadows to create a card effect */
-.card {
+.histcard {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
-
-
-/* Some left and right padding inside the container */
-.container {
-  padding: 0 16px;
+.histname {
+  color: black;
+  text-align: center;
+  margin: 5%;
+  font-size: 150%;
 }
 
-
-
-/* Clear floats */
-.container::after, .row::after {
-  content: "";
-  clear: both;
-  display: table;
+.histtitle {
+  text-align: center;
+  color: #808080;
 }
 
-
+.histcontainer {
+  padding: 5%;
+}
 
 .title {
   color: grey;
 }
-
-
 
 .button {
   border: none;
@@ -340,17 +329,8 @@ h2.h2-responsive.product-name {
   width: 100%;
 }
 
-
 .button:hover {
   background-color: #555;
-}
-
-.histrow {
-  margin: 5% 10% 5% 10%;
-}
-
-.histcolumn {
-  margin: 0% 2% 0% 2%;
 }
 
 /* Videos Page */
