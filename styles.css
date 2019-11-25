@@ -185,7 +185,6 @@ margin-right: 10%;
   -webkit-transform: scale(1.1); /* Safari 3-8 */
   transform: scale(1.1);
 }
-
 /** Shop Nav **/
 div.sticky {
   position: -webkit-sticky;
