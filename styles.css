@@ -74,6 +74,7 @@ html {
 
 .foottext {
   color: #FFF;
+  font-size: 120%;
 }
 
 .foottext:hover {
@@ -108,6 +109,18 @@ html {
   color: #2d5276;
 }
 
+.footer-socials {
+  margin-bottom: 0px!important;
+}
+
+.pt-4 {
+  margin-top: 2px!important;
+  padding: 0px!important;
+}
+
+.copyfoot {
+  padding-bottom: 2px;
+}
 /** Home page **/
 .pagecont {
   background-color: #f8f9fa !important;
