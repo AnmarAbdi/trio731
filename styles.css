@@ -60,67 +60,7 @@ html {
 .homerow {
   margin-left: 0px!important;
 }
-/** footer **/
 
-.footercont {
-  padding: 0px!important;
-  margin: 0px!important;
-  background-color: #c52121;
-}
-
-.footer-copyright {
-  background-color: #af0000;
-}
-
-.foottext {
-  color: #FFF;
-  font-size: 120%;
-}
-
-.foottext:hover {
-  color: #ababab;
-}
-
-.rgba-white-light {
-  margin: 0 15%;
-}
-
-.clearfix {
-  margin: 10% 15% 5%;
-}
-
-.fa {
-  color: black;
-}
-
-.fa-facebook:hover {
-  color: #3b5998;
-}
-
-.fa-youtube:hover {
-  color: #f1f1f1;
-}
-
-.fa-instagram:hover {
-  color: #962fbf;
-}
-
-.fa-tumblr:hover {
-  color: #2d5276;
-}
-
-.footer-socials {
-  margin-bottom: 0px!important;
-}
-
-.pt-4 {
-  margin-top: 2px!important;
-  padding: 0px!important;
-}
-
-.copyfoot {
-  padding-bottom: 2px;
-}
 /** Home page **/
 .pagecont {
   background-color: #f8f9fa !important;
@@ -203,7 +143,6 @@ div.sticky {
   position: -webkit-sticky;
   position: sticky;
   top: 0;
-  background-color: #f8f9fa69;
   padding: 8 50 8 50;
   font-size: 20px;
   z-index: 1;
@@ -391,6 +330,67 @@ h2.h2-responsive.product-name {
   text-align: center;
 }
 
+/** footer **/
+
+.footercont {
+  padding: 0px!important;
+  margin: 0px!important;
+  background-color: #c52121;
+}
+
+.footer-copyright {
+  background-color: #af0000;
+}
+
+.foottext {
+  color: #FFF;
+  font-size: 120%;
+}
+
+.foottext:hover {
+  color: #ababab;
+}
+
+.rgba-white-light {
+  margin: 0 15%;
+}
+
+.clearfix {
+  margin: 10% 15% 5%;
+}
+
+.fa {
+  color: white;
+}
+
+.fa-facebook:hover {
+  color: #3b5998;
+}
+
+.fa-youtube:hover {
+  color: #f1f1f1;
+}
+
+.fa-instagram:hover {
+  color: #962fbf;
+}
+
+.fa-tumblr:hover {
+  color: #2d5276;
+}
+
+.footer-socials {
+  margin-bottom: 0px!important;
+}
+
+.pt-4 {
+  margin-top: 2px!important;
+  padding: 0px!important;
+}
+
+.copyfoot {
+  padding-bottom: 2px;
+}
 /* media Query */
 
 /* iPad and tablets */
@@ -452,15 +452,17 @@ h2.h2-responsive.product-name {
   .btn-secondary {
     width: 40%;
   }
-  dic.row.modal-options {
+  div.row.modal-options {
     margin: 0px;
   }
   .col-md-6 {
     width: 50%;
     padding: 0px;
   }
-  .card-body {
+  div.card-body {
     padding-top: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
   }
   .modal-options {
     padding-bottom: 60px;
