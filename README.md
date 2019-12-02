@@ -10,3 +10,6 @@ add fonts - DONE
 Check for repeats in css
 4 ?'s - DONE
 make skateboard pulse
+
+
+Why is navbar commented out?
