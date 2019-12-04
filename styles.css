@@ -239,11 +239,8 @@ h2.h2-responsive.product-name {
   color: #FFF;
 }
 /* History */
-* Three columns side by side */
 
-
-
-.row {
+.histrow {
   display: flex;
   flex-direction: row;
   box-align: center;
@@ -251,14 +248,9 @@ h2.h2-responsive.product-name {
   flex-wrap: wrap;
   text-align: center;
   padding: 15px;
-  margin-left: 15%;
-  margin-right: 15%;
-  margin-top: 5%;
+  margin-left: 10%;
+  margin-right: 10%;
 }
-
-
-
-
 
 .column {
   float: left;
@@ -267,12 +259,6 @@ h2.h2-responsive.product-name {
   padding: 0 8px;
 }
 
-
-
-/* Display the columns below each other instead of side by side on small screens */
-
-
-/* Add some shadows to create a card effect */
 .histcard {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
@@ -280,8 +266,10 @@ h2.h2-responsive.product-name {
 .histname {
   color: black;
   text-align: center;
-  margin: 5%;
   font-size: 150%;
+  margin: 0px;
+  margin-top: 5%;
+  margin-bottom: 3%;
 }
 
 .histtitle {
@@ -290,7 +278,7 @@ h2.h2-responsive.product-name {
 }
 
 .histcontainer {
-  padding: 5%;
+  padding-bottom: 5%;
 }
 
 .title {
@@ -315,11 +303,24 @@ h2.h2-responsive.product-name {
 
 .histfa {
   color: #962fbf!important;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .histfa:hover {
   color: black!important;
 }
+
+.histtext {
+  font-size: 20px;
+  text-align: center;
+  margin: 0% 7% 1% 7%;
+}
+
+.histicon {
+  text-align: center;
+}
+
 /* Videos Page */
 .flex-container {
   display: flex;
@@ -455,11 +456,54 @@ textarea {
 
 /* media Query */
 
+/* smaller screens */
+
+@media only screen and (max-width: 1210px) {
+  /*history page */
+  .histname {
+    font-size: 100%;
+  }
+}
+
+@media only screen and (max-width: 870px) {
+  /*history page */
+  .histname {
+    font-size: 80%;
+  }
+}
+
+/* ipad pro */
+@media only screen and (max-width: 1030px) {
+  .pagecont {
+    max-width: 80%;
+  }
+  .navbar {
+    height: 200px!important;
+  }
+
+  .nav-item {
+    font-size: 150%;
+  }
+  img.logoimg {
+    width: 170px;
+  }
+  /* history page */
+  .histrow {
+    margin: 0px;
+  }
+  .histtext {
+    font-size: 25px;
+  }
+  .histcont {
+    padding-bottom: 35%;
+  }
+}
+
 /* iPad and tablets */
 @media only screen and (max-width: 800px) {
   .navbar-toggler {
     width: 10%;
-    height: 10%;
+    height: 25%;
     background-color: #c52121;
     margin-right: 30px;
   }
@@ -479,6 +523,11 @@ textarea {
   div.row.modal-row {
     margin-left: 0px;
     margin-right: 2px;
+  }
+  .navbar-collapse {
+    background-color: #f8f9fa;
+    border-radius: 0px 0px 20px 20px;
+    box-shadow: 3px 7px 5px grey;
   }
 }
 
