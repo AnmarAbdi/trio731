@@ -179,7 +179,7 @@ div.sticky {
 .shoprow {
   margin-right: 0px;
   margin-left: 0px;
-  margin-bottom: 5%;
+  margin-bottom: 1%;
   width: 100%;
 }
 
@@ -237,6 +237,16 @@ h2.h2-responsive.product-name {
 
 .fa-shopping-basket {
   color: #FFF;
+}
+
+.shoptitle {
+  color: black;
+  margin: auto;
+  margin-bottom: 1%;
+}
+
+.shopcards {
+  background-color: #e4e4e4;
 }
 /* History */
 
@@ -348,6 +358,9 @@ h2.h2-responsive.product-name {
   text-align: center;
 }
 
+.flyer {
+  text-align: center;
+}
 /** footer **/
 
 .footercont {
