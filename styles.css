@@ -148,6 +148,13 @@ margin-right: 10%;
   transform: scale(1.1);
 }
 
+.testimonialheading {
+  text-align: center;
+}
+
+.testimonial-descriptions {
+  text-align: center;
+}
 /** Shop Nav **/
 div.sticky {
   position: -webkit-sticky;
