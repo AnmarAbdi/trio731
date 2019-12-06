@@ -248,6 +248,12 @@ h2.h2-responsive.product-name {
 .shopcards {
   background-color: #e4e4e4;
 }
+
+.shopinput {
+  width: 80%;
+  margin: 0% 10% 3% 10%;
+}
+
 /* History */
 
 .histrow {
@@ -450,7 +456,7 @@ textarea {
   resize:vertical;
 }
 
-[type="submit"] {
+.helpbtn {
   font-family: 'Sriracha', sans-serif;
   width: 100%;
   background:#CC6666;
@@ -465,7 +471,7 @@ textarea {
   margin-top:-4px;
   font-weight:700;
 }
-[type="submit"]:hover { background:#CC4949; }
+.helpbtn:hover { background:#CC4949; }
 
 /* media Query */
 
@@ -495,7 +501,7 @@ textarea {
   }
 
   .nav-item {
-    font-size: 150%;
+    font-size: 120%;
   }
   img.logoimg {
     width: 170px;
@@ -541,6 +547,18 @@ textarea {
     background-color: #f8f9fa;
     border-radius: 0px 0px 20px 20px;
     box-shadow: 3px 7px 5px grey;
+    z-index: 2;
+    position: relative;
+  }
+  .nav-item:hover {
+    transform: scale(1);
+  }
+  div.sticky {
+    width: 98%;
+    margin: auto;
+  }
+  .nav-link {
+    text-align: center;
   }
 }
 
