@@ -542,7 +542,7 @@ textarea {
     width: 200px;
   }
   .pagecont {
-    max-width: 95%;
+    max-width: 85%;
   }
   .card-title {
     margin-bottom: 6px;
@@ -568,6 +568,22 @@ textarea {
   .nav-link {
     text-align: center;
   }
+  .homeparagraph {
+  font-size: 18px;
+}
+.homeparatitle {
+  font-size: 25px;
+}
+.testimonialheading {
+  font-size: 25px;
+}
+#homecarousel {
+  width: 100%;
+}
+.skateboard {
+  width: 60%;
+  margin-left: 20%;
+}
 }
 
 /* iPhone plus's */
