@@ -348,36 +348,27 @@ h2.h2-responsive.product-name {
 }
 
 /* Videos Page */
-.flex-container {
-  display: flex;
-  flex-direction: row;
-  align: center;
-  justify-content: center;
-  flex-flow: row-wrap;
-  padding: 25px 125px;
+.pagecont {
+  padding-top: 3px;
 }
 
-.flex-item {
-  padding: 25px 125px;
-  align: center;
-  margin-left: 10px;
-  margin-right: 10px;
-}
-
-.youtubeicon {
-  width: 5%;
-  height: 10%;
-}
-
-.vidpara {
-  font-size: 20px;
+.video-captions {
   text-align: center;
+}
+
+.tyodrifth2 {
+  color: black;
+  margin: 0% 0% 2% 0%;
+  text-align: center;
+}
+
+.flyerpic {
+  width: 70%;
 }
 
 .flyer {
   text-align: center;
 }
-
 /** footer **/
 
 .footercont {
@@ -541,6 +532,9 @@ textarea {
   .fa-4x {
     font-size: 3.7em!important;
   }
+  .flyerpic {
+    width: 90%;
+  }
 }
 
 /* iPad and tablets */
@@ -603,6 +597,9 @@ textarea {
   }
   .histtext {
     font-size: 23px;
+  }
+  .listvid {
+    margin-top: 7%;
   }
 }
 
